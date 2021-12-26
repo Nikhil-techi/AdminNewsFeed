@@ -1,0 +1,50 @@
+.foot {
+  clear: both;
+  background-color: black;
+  width: 100%;
+  margin-top: 32%;
+  color: white;
+}
+.inline {
+  text-align: center;
+}
+.inline li {
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 1.6;
+}
+
+.inline li a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.7;
+}
+
+.inline li a:hover {
+  opacity: 1;
+}
+
+.foot p {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.foot .social {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+svg {
+  fill: white;
+  opacity: 0.7;
+}
+
+svg:hover {
+  opacity: 1;
+}

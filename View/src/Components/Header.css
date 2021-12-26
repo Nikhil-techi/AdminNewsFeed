@@ -1,0 +1,81 @@
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.header li {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.header li a {
+  margin-left: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 2px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+.header li a:hover {
+  background-color: #0088a9;
+}
+
+.header .active {
+  background-color: #0088a9;
+  font-weight: 500;
+}
+
+.input[type="text"] {
+  float: right;
+  padding: 3px 10px;
+  border: none;
+  font-size: 17px;
+  float: right;
+}
+
+.input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1.5em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.searchbox {
+  float: right;
+  margin: 0;
+  height: 55px;
+}
+
+.searchbox li {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.searchbox li a {
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 3px 5px;
+  border-radius: 50px;
+}
+
+.searchbox li a:hover {
+  background-color: #0088a9;
+}
